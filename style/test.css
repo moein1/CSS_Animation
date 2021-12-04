@@ -1,0 +1,7 @@
+.loader span:nth-child(15) {
+    top: 140px;
+    left: 140px;
+    bottom: 140px;
+    right: 140px;
+    animation-delay: 0s;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/glassMorphism.css">
+    <title>glassMorphism</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Card One</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Debitis fugiat esse pariatur, numquam eaque officiis nihil consequatur
+                      repudiandae voluptatum minima.</p>
+                      <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Card Two</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Debitis fugiat esse pariatur, numquam eaque officiis nihil consequatur
+                      repudiandae voluptatum minima.</p>
+                      <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Card Three</h3>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                     adipisicing elit. Iusto in magni sequi maxime
+                      voluptatem itaque? Expedita, earum cupiditate atque,
+                       aspernatur quidem vero, hic eius animi non provident unde aliquid veritatis.</p>
+                      <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+    <script src="js/vanilla-js.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1
+        });       
+    </script>
+</body>
+</html>
